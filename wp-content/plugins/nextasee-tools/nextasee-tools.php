@@ -1,10 +1,17 @@
 <?php
-/*
-Plugin Name: Nextasee Tools
-Description: A simple plugin with Army, Talks, and Settings modules.
-Version: 1.0
-Author: Your Name
-*/
+/**
+ * Plugin Name: Nextasee Tools
+ * Description: Custom tools for Nextasee with Army, Talks, and Settings modules.
+ * Version: 1.0
+ * Author: Your Name
+ */
+
+if (!defined('ABSPATH')) exit;
+
+// Include module files
+require_once plugin_dir_path(__FILE__) . 'includes/army.php';
+require_once plugin_dir_path(__FILE__) . 'includes/talks.php';
+require_once plugin_dir_path(__FILE__) . 'includes/settings.php';
 
 // Enqueue Tailwind CSS
 function nextasee_tools_enqueue_styles() {
@@ -20,18 +27,3 @@ function nextasee_tools_menu() {
     add_submenu_page('nextasee-tools', 'Settings', 'Settings', 'manage_options', 'nextasee-tools-settings', 'nextasee_tools_settings_page');
 }
 add_action('admin_menu', 'nextasee_tools_menu');
-
-// Army page
-function nextasee_tools_army_page() {
-    echo '<div class="wrap"><h1 class="text-3xl font-bold mb-4">Army Module</h1><p class="text-lg">Content for the Army module goes here.</p></div>';
-}
-
-// Talks page
-function nextasee_tools_talks_page() {
-    echo '<div class="wrap"><h1 class="text-3xl font-bold mb-4">Talks Module</h1><p class="text-lg">Content for the Talks module goes here.</p></div>';
-}
-
-// Settings page
-function nextasee_tools_settings_page() {
-    echo '<div class="wrap"><h1 class="text-3xl font-bold mb-4">Settings Module</h1><p class="text-lg">Content for the Settings module goes here.</p></div>';
-}

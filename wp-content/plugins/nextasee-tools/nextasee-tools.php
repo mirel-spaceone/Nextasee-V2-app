@@ -3,7 +3,7 @@
  * Plugin Name: Nextasee Tools
  * Description: Custom tools for Nextasee with Army, Talks, and Settings modules.
  * Version: 1.0
- * Author: Your Name
+ * Author: Mirel
  */
 
 if (!defined('ABSPATH')) exit;

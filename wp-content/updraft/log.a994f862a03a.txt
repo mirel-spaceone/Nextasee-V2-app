@@ -1,0 +1,638 @@
+0000.000 (0) Opened log file at time: Wed, 18 Sep 2024 07:28:16 +0000 on https://app.nextasee.com
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.4 WP: 6.6.2 PHP: 8.2.18 (litespeed, Linux us-phx-web1490.main-hosting.eu 5.14.0-427.22.1.el9_4.x86_64 #1 SMP PREEMPT_DYNAMIC Sun Jun 23 17:57:52 EDT 2024 x86_64) MySQL: 10.11.8-MariaDB-cll-lve (max packet size=1073741824) WPLANG: en_US Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 12288M (used: 97.3M | 100M) multisite: N openssl: OpenSSL 3.0.7 1 Nov 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.001 (0) Free space on disk containing Updraft's temporary directory: 14109147.1 MB
+0000.002 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.003 (0) Semaphore (fd, wp_options) being initialised
+0000.004 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.005 (0) Set semaphore last lock (fd) time to 2024-09-18 07:28:16
+0000.005 (0) Semaphore lock (fd) complete
+0000.007 (0) Backup run: resumption=0, nonce=a994f862a03a, file_nonce=a994f862a03a begun at=1726644496 (0s ago), job type=backup
+0000.007 (0) Scheduling a resumption (1) after 300 seconds (1726644796) in case this run gets aborted
+0000.014 (0) Checking if we have a zip executable available
+0000.015 (0) Creation of backups of directories: beginning
+0000.016 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.316 (0) Total entities for the zip file: 2311 directories, 11800 files (0 skipped as non-modified), 167.8 MB
+0000.326 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.332 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.340 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.350 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.357 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.368 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.378 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.387 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.396 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.405 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.406 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (9.7 MB, 11800 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0001.190 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 1100 files added (on-disk size: 3528.1 KB)
+0001.198 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 1200 files added (on-disk size: 3528.1 KB)
+0001.207 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 1300 files added (on-disk size: 3528.1 KB)
+0001.215 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 1400 files added (on-disk size: 3528.1 KB)
+0001.222 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 1500 files added (on-disk size: 3528.1 KB)
+0001.229 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 1600 files added (on-disk size: 3528.1 KB)
+0001.236 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 1700 files added (on-disk size: 3528.1 KB)
+0001.244 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 1800 files added (on-disk size: 3528.1 KB)
+0001.253 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 1900 files added (on-disk size: 3528.1 KB)
+0001.259 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (26.6 MB, 11800 files batched, 965 (1966) added so far); re-opening (prior size: 3528.1 KB)
+0002.875 (0) A useful amount of data was added after this amount of zip processing: 2.2 s (normalised: 2.1 s, rate: 12398.4 KB/s)
+0002.876 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.1947169303894, normalised_time=2.0647879524988, max_time=2.8752980232239, data points known=1, old_max_bytes=26214400, new_max_bytes=76175570)
+0002.904 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 2000 files added (on-disk size: 11408.6 KB)
+0002.912 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 2100 files added (on-disk size: 11408.6 KB)
+0002.920 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 2200 files added (on-disk size: 11408.6 KB)
+0002.928 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 2300 files added (on-disk size: 11408.6 KB)
+0002.937 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 2400 files added (on-disk size: 11408.6 KB)
+0002.944 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 2500 files added (on-disk size: 11408.6 KB)
+0002.952 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 2600 files added (on-disk size: 11408.6 KB)
+0002.959 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 2700 files added (on-disk size: 11408.6 KB)
+0002.968 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 2800 files added (on-disk size: 11408.6 KB)
+0002.976 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 2900 files added (on-disk size: 11408.6 KB)
+0002.981 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (10.6 MB, 11800 files batched, 1001 (2967) added so far); re-opening (prior size: 11408.6 KB)
+0003.529 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 3000 files added (on-disk size: 15089.1 KB)
+0003.538 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 3100 files added (on-disk size: 15089.1 KB)
+0003.547 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 3200 files added (on-disk size: 15089.1 KB)
+0003.556 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 3300 files added (on-disk size: 15089.1 KB)
+0003.565 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 3400 files added (on-disk size: 15089.1 KB)
+0003.574 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 3500 files added (on-disk size: 15089.1 KB)
+0003.584 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 3600 files added (on-disk size: 15089.1 KB)
+0003.599 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 3700 files added (on-disk size: 15089.1 KB)
+0003.609 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 3800 files added (on-disk size: 15089.1 KB)
+0003.619 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 3900 files added (on-disk size: 15089.1 KB)
+0003.625 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (7.7 MB, 11800 files batched, 1001 (3968) added so far); re-opening (prior size: 15089.1 KB)
+0004.083 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 4000 files added (on-disk size: 17244.7 KB)
+0004.090 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 4100 files added (on-disk size: 17244.7 KB)
+0004.099 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 4200 files added (on-disk size: 17244.7 KB)
+0004.108 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 4300 files added (on-disk size: 17244.7 KB)
+0004.116 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 4400 files added (on-disk size: 17244.7 KB)
+0004.124 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 4500 files added (on-disk size: 17244.7 KB)
+0004.131 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 4600 files added (on-disk size: 17244.7 KB)
+0004.140 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 4700 files added (on-disk size: 17244.7 KB)
+0004.148 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 4800 files added (on-disk size: 17244.7 KB)
+0004.157 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 4900 files added (on-disk size: 17244.7 KB)
+0004.163 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (14.3 MB, 11800 files batched, 1001 (4969) added so far); re-opening (prior size: 17244.7 KB)
+0004.911 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 5000 files added (on-disk size: 20238.2 KB)
+0004.918 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 5100 files added (on-disk size: 20238.2 KB)
+0004.925 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 5200 files added (on-disk size: 20238.2 KB)
+0004.933 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 5300 files added (on-disk size: 20238.2 KB)
+0004.940 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 5400 files added (on-disk size: 20238.2 KB)
+0004.968 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 5500 files added (on-disk size: 20238.2 KB)
+0004.979 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 5600 files added (on-disk size: 20238.2 KB)
+0004.991 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 5700 files added (on-disk size: 20238.2 KB)
+0005.001 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 5800 files added (on-disk size: 20238.2 KB)
+0005.010 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 5900 files added (on-disk size: 20238.2 KB)
+0005.018 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (31.2 MB, 11800 files batched, 1001 (5970) added so far); re-opening (prior size: 20238.2 KB)
+0007.021 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 6000 files added (on-disk size: 29627.5 KB)
+0007.030 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 6100 files added (on-disk size: 29627.5 KB)
+0007.038 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 6200 files added (on-disk size: 29627.5 KB)
+0007.047 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 6300 files added (on-disk size: 29627.5 KB)
+0007.056 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 6400 files added (on-disk size: 29627.5 KB)
+0007.064 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 6500 files added (on-disk size: 29627.5 KB)
+0007.074 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 6600 files added (on-disk size: 29627.5 KB)
+0007.083 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 6700 files added (on-disk size: 29627.5 KB)
+0007.091 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 6800 files added (on-disk size: 29627.5 KB)
+0007.100 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 6900 files added (on-disk size: 29627.5 KB)
+0007.107 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (8.7 MB, 11800 files batched, 1001 (6971) added so far); re-opening (prior size: 29627.5 KB)
+0007.749 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 7000 files added (on-disk size: 32789.2 KB)
+0007.773 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 7100 files added (on-disk size: 32789.2 KB)
+0007.783 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 7200 files added (on-disk size: 32789.2 KB)
+0007.792 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 7300 files added (on-disk size: 32789.2 KB)
+0007.801 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 7400 files added (on-disk size: 32789.2 KB)
+0007.811 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 7500 files added (on-disk size: 32789.2 KB)
+0007.820 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 7600 files added (on-disk size: 32789.2 KB)
+0007.831 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 7700 files added (on-disk size: 32789.2 KB)
+0007.840 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 7800 files added (on-disk size: 32789.2 KB)
+0007.849 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 7900 files added (on-disk size: 32789.2 KB)
+0007.856 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (2.4 MB, 11800 files batched, 1001 (7972) added so far); re-opening (prior size: 32789.2 KB)
+0008.180 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 8000 files added (on-disk size: 33659.3 KB)
+0008.189 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 8100 files added (on-disk size: 33659.3 KB)
+0008.198 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 8200 files added (on-disk size: 33659.3 KB)
+0008.208 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 8300 files added (on-disk size: 33659.3 KB)
+0008.217 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 8400 files added (on-disk size: 33659.3 KB)
+0008.225 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 8500 files added (on-disk size: 33659.3 KB)
+0008.232 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 8600 files added (on-disk size: 33659.3 KB)
+0008.241 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 8700 files added (on-disk size: 33659.3 KB)
+0008.249 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 8800 files added (on-disk size: 33659.3 KB)
+0008.256 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 8900 files added (on-disk size: 33659.3 KB)
+0008.262 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (24.5 MB, 11800 files batched, 1001 (8973) added so far); re-opening (prior size: 33659.3 KB)
+0009.427 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 9000 files added (on-disk size: 41236.3 KB)
+0009.435 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 9100 files added (on-disk size: 41236.3 KB)
+0009.442 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 9200 files added (on-disk size: 41236.3 KB)
+0009.450 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 9300 files added (on-disk size: 41236.3 KB)
+0009.457 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 9400 files added (on-disk size: 41236.3 KB)
+0009.465 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 9500 files added (on-disk size: 41236.3 KB)
+0009.474 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 9600 files added (on-disk size: 41236.3 KB)
+0009.482 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 9700 files added (on-disk size: 41236.3 KB)
+0009.489 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 9800 files added (on-disk size: 41236.3 KB)
+0009.496 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 9900 files added (on-disk size: 41236.3 KB)
+0009.502 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (8.5 MB, 11800 files batched, 1001 (9974) added so far); re-opening (prior size: 41236.3 KB)
+0010.053 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 10000 files added (on-disk size: 44714 KB)
+0010.063 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 10100 files added (on-disk size: 44714 KB)
+0010.073 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 10200 files added (on-disk size: 44714 KB)
+0010.082 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 10300 files added (on-disk size: 44714 KB)
+0010.092 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 10400 files added (on-disk size: 44714 KB)
+0010.101 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 10500 files added (on-disk size: 44714 KB)
+0010.111 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 10600 files added (on-disk size: 44714 KB)
+0010.120 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 10700 files added (on-disk size: 44714 KB)
+0010.130 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 10800 files added (on-disk size: 44714 KB)
+0010.140 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 10900 files added (on-disk size: 44714 KB)
+0010.147 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (7.1 MB, 11800 files batched, 1001 (10975) added so far); re-opening (prior size: 44714 KB)
+0010.828 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 11000 files added (on-disk size: 46904.6 KB)
+0010.836 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 11100 files added (on-disk size: 46904.6 KB)
+0010.845 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 11200 files added (on-disk size: 46904.6 KB)
+0010.853 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 11300 files added (on-disk size: 46904.6 KB)
+0010.861 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 11400 files added (on-disk size: 46904.6 KB)
+0010.869 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 11500 files added (on-disk size: 46904.6 KB)
+0010.878 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 11600 files added (on-disk size: 46904.6 KB)
+0010.886 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 11700 files added (on-disk size: 46904.6 KB)
+0010.894 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.tmp: 11800 files added (on-disk size: 46904.6 KB)
+0012.139 (0) Creating zip file manifest (backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.list-temp.tmp)
+0012.206 (0) Successfully created zip file manifest (size: 1099783)
+0012.603 (0) Created plugins zip (0) - 53638.8 KB in 12.6 s (4262.1 KB/s) (sha1: 4478552b7d9eba112896edfb87796a6bc95edc52, sha256: f76325dfb32cdc2cb474d49cd1be707d61ac7b21999544d388a8fbfaf41dcf23)
+0012.612 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0012.612 (0) No remote despatch: user chose no remote backup service
+0012.613 (0) Recording as successfully uploaded: backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip
+0012.613 (0) Deleting zip manifest (backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip.list.tmp)
+0012.615 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0012.616 (0) Number of backup sets in history: 0; groups (db): 1
+0012.616 (0) Number of backup sets in history: 0; groups (files): 1
+0012.616 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0012.619 (0) Beginning creation of dump of themes (split every: 400 MB)
+0012.682 (0) Total entities for the zip file: 428 directories, 2100 files (0 skipped as non-modified), 54.9 MB
+0012.691 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0012.700 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0012.709 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0012.719 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0012.729 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0012.739 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0012.748 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0012.755 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0012.764 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0012.773 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-themes.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0012.774 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (13.2 MB, 2100 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0013.446 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-themes.zip.tmp: 1100 files added (on-disk size: 8070.8 KB)
+0013.454 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-themes.zip.tmp: 1200 files added (on-disk size: 8070.8 KB)
+0013.463 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-themes.zip.tmp: 1300 files added (on-disk size: 8070.8 KB)
+0013.473 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-themes.zip.tmp: 1400 files added (on-disk size: 8070.8 KB)
+0013.483 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-themes.zip.tmp: 1500 files added (on-disk size: 8070.8 KB)
+0013.493 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-themes.zip.tmp: 1600 files added (on-disk size: 8070.8 KB)
+0013.503 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-themes.zip.tmp: 1700 files added (on-disk size: 8070.8 KB)
+0013.512 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-themes.zip.tmp: 1800 files added (on-disk size: 8070.8 KB)
+0013.520 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-themes.zip.tmp: 1900 files added (on-disk size: 8070.8 KB)
+0013.528 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-themes.zip.tmp: 2000 files added (on-disk size: 8070.8 KB)
+0013.528 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (35.5 MB, 2100 files batched, 1001 (2002) added so far); re-opening (prior size: 8070.8 KB)
+0015.317 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-themes.zip.tmp: 2100 files added (on-disk size: 18555.4 KB)
+0015.573 (0) Creating zip file manifest (backup_2024-09-18-0728_Nextasee_a994f862a03a-themes.zip.list-temp.tmp)
+0015.581 (0) Successfully created zip file manifest (size: 193080)
+0015.758 (0) Created themes zip (0) - 24351.3 KB in 3.1 s (7759.8 KB/s) (sha1: 075b7ee4280db1eb8f79171ec87108714648102e, sha256: 8816210e9d84830482a58a151595b8f3c729c6575c10bb66d0906281919eb883)
+0015.761 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0015.762 (0) No remote despatch: user chose no remote backup service
+0015.762 (0) Recording as successfully uploaded: backup_2024-09-18-0728_Nextasee_a994f862a03a-themes.zip
+0015.763 (0) Deleting zip manifest (backup_2024-09-18-0728_Nextasee_a994f862a03a-themes.zip.list.tmp)
+0015.764 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0015.764 (0) Number of backup sets in history: 0; groups (db): 1
+0015.765 (0) Number of backup sets in history: 0; groups (files): 1
+0015.765 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0015.767 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0015.768 (0) Looking for candidates to backup in: /home/u671114538/domains/app.ne/public_html/wp-content/uploads
+0015.768 (0) finding files: bb-platform-previews: adding to list (1)
+0015.768 (0) finding files: 2024: adding to list (2)
+0015.769 (0) finding files: bp-attachments: adding to list (3)
+0015.769 (0) finding files: avatars: adding to list (4)
+0015.769 (0) finding files: group-avatars: adding to list (5)
+0015.769 (0) finding files: bb_medias: adding to list (6)
+0015.770 (0) finding files: buddyboss: adding to list (7)
+0015.770 (0) finding files: buddypress: adding to list (8)
+0015.770 (0) finding files: redux: adding to list (9)
+0015.771 (0) finding files: bb_videos: adding to list (10)
+0015.771 (0) finding files: bb_documents: adding to list (11)
+0015.771 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0015.778 (0) Total entities for the zip file: 71 directories, 110 files (0 skipped as non-modified), 52.1 MB
+0015.785 (0) Zip: backup_2024-09-18-0728_Nextasee_a994f862a03a-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0015.965 (0) Creating zip file manifest (backup_2024-09-18-0728_Nextasee_a994f862a03a-uploads.zip.list-temp.tmp)
+0015.966 (0) Successfully created zip file manifest (size: 6337)
+0016.358 (0) Created uploads zip (0) - 53166.8 KB in 0.6 s (90873.7 KB/s) (sha1: 1f7f24ef471c4249d8ca0188cbd6fa9543a2e20c, sha256: 3fa7c9ed2a39530cd6fdfa73ae442a26b2550f4f6c51a2feb84c1fa065c55287)
+0016.362 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0016.362 (0) No remote despatch: user chose no remote backup service
+0016.363 (0) Recording as successfully uploaded: backup_2024-09-18-0728_Nextasee_a994f862a03a-uploads.zip
+0016.364 (0) Deleting zip manifest (backup_2024-09-18-0728_Nextasee_a994f862a03a-uploads.zip.list.tmp)
+0016.364 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0016.365 (0) Number of backup sets in history: 0; groups (db): 1
+0016.365 (0) Number of backup sets in history: 0; groups (files): 1
+0016.366 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0016.368 (0) Beginning creation of dump of mu-plugins (split every: 400 MB)
+0016.369 (0) Total entities for the zip file: 1 directories, 2 files (0 skipped as non-modified), 0 MB
+0016.463 (0) Creating zip file manifest (backup_2024-09-18-0728_Nextasee_a994f862a03a-mu-plugins.zip.list-temp.tmp)
+0016.464 (0) Successfully created zip file manifest (size: 121)
+0016.466 (0) Created mu-plugins zip (0) - 1.1 KB in 0.1 s (11.1 KB/s) (sha1: 199371d15afdbb7cdfe3fbe3c15750c5c46205c3, sha256: 2c38263081614846cc0d52071e8b1075008063ac68a983b8c9281008d313d6e7)
+0016.468 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0016.468 (0) No remote despatch: user chose no remote backup service
+0016.469 (0) Recording as successfully uploaded: backup_2024-09-18-0728_Nextasee_a994f862a03a-mu-plugins.zip
+0016.470 (0) Deleting zip manifest (backup_2024-09-18-0728_Nextasee_a994f862a03a-mu-plugins.zip.list.tmp)
+0016.470 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0016.471 (0) Number of backup sets in history: 0; groups (db): 1
+0016.471 (0) Number of backup sets in history: 0; groups (files): 1
+0016.472 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0016.473 (0) Beginning backup of other directories found in the content directory (index: 0)
+0016.474 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0016.474 (0) Looking for candidates to backup in: /home/u671114538/domains/app.ne/public_html/wp-content
+0016.475 (0) finding files: updraft: skipping: this is the updraft directory
+0016.475 (0) finding files: upgrade: skipping: excluded by options
+0016.475 (0) finding files: themes: skipping: this is the themes directory
+0016.475 (0) finding files: uploads: skipping: this is the uploads directory
+0016.476 (0) finding files: index.php: adding to list (1)
+0016.476 (0) finding files: upgrade-temp-backup: adding to list (2)
+0016.476 (0) finding files: plugins: skipping: this is the plugins directory
+0016.477 (0) finding files: mu-plugins: skipping: this is the mu-plugins directory
+0016.478 (0) Total entities for the zip file: 1 directories, 1 files (0 skipped as non-modified), 0 MB
+0016.479 (0) Creating zip file manifest (backup_2024-09-18-0728_Nextasee_a994f862a03a-others.zip.list-temp.tmp)
+0016.480 (0) Successfully created zip file manifest (size: 43)
+0016.482 (0) Created others zip (0) - 0.3 KB in 0 s (60.4 KB/s) (sha1: a6df998f8f259d293ddec556c3d933d720601a86, sha256: ed941b51ef477a8bc10b1317792965efe5f6209d152773e1bd42077dbe6e662b)
+0016.483 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0016.484 (0) No remote despatch: user chose no remote backup service
+0016.484 (0) Recording as successfully uploaded: backup_2024-09-18-0728_Nextasee_a994f862a03a-others.zip
+0016.485 (0) Deleting zip manifest (backup_2024-09-18-0728_Nextasee_a994f862a03a-others.zip.list.tmp)
+0016.486 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0016.486 (0) Number of backup sets in history: 0; groups (db): 1
+0016.487 (0) Number of backup sets in history: 0; groups (files): 1
+0016.487 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0016.490 (0) Saving backup status to database (elements: 10)
+0016.491 (0) Beginning creation of database dump (WordPress DB)
+0016.492 (0) SQL compatibility mode is: NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0016.498 (0) Table wp_options: Total expected rows (via COUNT): 713
+0016.572 (0) Table wp_options: Rows added in this batch (next record: 5333): 709 (uncompressed bytes in this segment=1749521) in 0.08 seconds
+0016.576 (0) Table wp_options: finishing file(s) (2, 391.4 KB)
+0016.579 (0) Table wp_users: Total expected rows (via COUNT): 22
+0016.579 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0016.580 (0) Table wp_users: Rows added in this batch (next record: 33): 22 (uncompressed bytes in this segment=4550) in 0.00 seconds
+0016.583 (0) Table wp_users: finishing file(s) (2, 1.8 KB)
+0016.586 (0) Table wp_usermeta: Total expected rows (via COUNT): 483
+0016.586 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0016.589 (0) Table wp_usermeta: Rows added in this batch (next record: 759): 483 (uncompressed bytes in this segment=25383) in 0.01 seconds
+0016.592 (0) Table wp_usermeta: finishing file(s) (2, 5.4 KB)
+0016.595 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 3
+0016.596 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0016.597 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 104): 3 (uncompressed bytes in this segment=2580) in 0.00 seconds
+0016.600 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 0.8 KB)
+0016.602 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0016.603 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=626) in 0.00 seconds
+0016.606 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0016.608 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 1
+0016.609 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0016.610 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=658) in 0.00 seconds
+0016.611 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0016.613 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 9
+0016.614 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0016.614 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 9): 9 (uncompressed bytes in this segment=1554) in 0.00 seconds
+0016.616 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 0.6 KB)
+0016.618 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0016.619 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=634) in 0.00 seconds
+0016.621 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0016.623 (0) Table wp_comments: Total expected rows (via COUNT): 14
+0016.623 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0016.625 (0) Table wp_comments: Rows added in this batch (next record: 14): 14 (uncompressed bytes in this segment=5918) in 0.00 seconds
+0016.627 (0) Table wp_comments: finishing file(s) (2, 2.1 KB)
+0016.629 (0) Table wp_gamipress_logs: Total expected rows (via COUNT): 6
+0016.629 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0016.629 (0) Table wp_gamipress_logs: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=1929) in 0.00 seconds
+0016.631 (0) Table wp_gamipress_logs: finishing file(s) (2, 0.6 KB)
+0016.633 (0) Table wp_gamipress_logs_meta: Total expected rows (via COUNT): 16
+0016.634 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0016.634 (0) Table wp_gamipress_logs_meta: Rows added in this batch (next record: 16): 16 (uncompressed bytes in this segment=1630) in 0.00 seconds
+0016.636 (0) Table wp_gamipress_logs_meta: finishing file(s) (2, 0.6 KB)
+0016.638 (0) Table wp_gamipress_user_earnings: Total expected rows (via COUNT): 2
+0016.638 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0016.639 (0) Table wp_gamipress_user_earnings: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1029) in 0.00 seconds
+0016.641 (0) Table wp_gamipress_user_earnings: finishing file(s) (2, 0.5 KB)
+0016.643 (0) Table wp_gamipress_user_earnings_meta: Total expected rows (via COUNT): 0
+0016.644 (0) Table wp_gamipress_user_earnings_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=751) in 0.00 seconds
+0016.645 (0) Table wp_gamipress_user_earnings_meta: finishing file(s) (2, 0.4 KB)
+0016.647 (0) Table wp_links: Total expected rows (via COUNT): 0
+0016.648 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1027) in 0.00 seconds
+0016.650 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0016.652 (0) Table wp_postmeta: Total expected rows (via COUNT): 462
+0016.652 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0016.654 (0) Table wp_postmeta: Rows added in this batch (next record: 655): 462 (uncompressed bytes in this segment=43168) in 0.00 seconds
+0016.656 (0) Table wp_postmeta: finishing file(s) (2, 6.7 KB)
+0016.659 (0) Table wp_posts: Total expected rows (via COUNT): 106
+0016.659 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0016.663 (0) Table wp_posts: Rows added in this batch (next record: 150): 106 (uncompressed bytes in this segment=61955) in 0.01 seconds
+0016.665 (0) Table wp_posts: finishing file(s) (2, 11.2 KB)
+0016.669 (0) Table wp_signups: Total expected rows (via COUNT): 0
+0016.670 (0) Table wp_signups: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1048) in 0.00 seconds
+0016.673 (0) Table wp_signups: finishing file(s) (2, 0.5 KB)
+0016.675 (0) Table wp_tec_events: Total expected rows (via COUNT): 11
+0016.675 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0016.678 (0) Table wp_tec_events: Rows added in this batch (next record: 12): 11 (uncompressed bytes in this segment=2547) in 0.00 seconds
+0016.680 (0) Table wp_tec_events: finishing file(s) (2, 0.8 KB)
+0016.682 (0) Table wp_tec_occurrences: Total expected rows (via COUNT): 11
+0016.683 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0016.684 (0) Table wp_tec_occurrences: Rows added in this batch (next record: 11): 11 (uncompressed bytes in this segment=2965) in 0.00 seconds
+0016.686 (0) Table wp_tec_occurrences: finishing file(s) (2, 1.1 KB)
+0016.688 (0) Table wp_term_relationships: Total expected rows (approximate): 74
+0016.689 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 74 (uncompressed bytes in this segment=1746) in 0.00 seconds
+0016.691 (0) Table wp_term_relationships: finishing file(s) (2, 0.7 KB)
+0016.694 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 64
+0016.694 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0016.695 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 64): 64 (uncompressed bytes in this segment=4658) in 0.00 seconds
+0016.697 (0) Table wp_term_taxonomy: finishing file(s) (2, 1.4 KB)
+0016.700 (0) Table wp_termmeta: Total expected rows (via COUNT): 5
+0016.700 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0016.701 (0) Table wp_termmeta: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=977) in 0.00 seconds
+0016.703 (0) Table wp_termmeta: finishing file(s) (2, 0.5 KB)
+0016.705 (0) Table wp_terms: Total expected rows (via COUNT): 64
+0016.705 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0016.706 (0) Table wp_terms: Rows added in this batch (next record: 64): 64 (uncompressed bytes in this segment=3811) in 0.00 seconds
+0016.708 (0) Table wp_terms: finishing file(s) (2, 1.3 KB)
+0016.711 (0) Table wp_bb_background_job_queue: Total expected rows (via COUNT): 0
+0016.712 (0) Table wp_bb_background_job_queue: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1023) in 0.00 seconds
+0016.714 (0) Table wp_bb_background_job_queue: finishing file(s) (2, 0.5 KB)
+0016.720 (0) Table wp_bb_background_process_logs: Total expected rows (via COUNT): 249
+0016.720 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0016.726 (0) Table wp_bb_background_process_logs: Rows added in this batch (next record: 249): 249 (uncompressed bytes in this segment=393009) in 0.01 seconds
+0016.729 (0) Table wp_bb_background_process_logs: finishing file(s) (2, 23.9 KB)
+0016.732 (0) Table wp_bb_email_queue: Total expected rows (via COUNT): 0
+0016.733 (0) Table wp_bb_email_queue: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=644) in 0.00 seconds
+0016.734 (0) Table wp_bb_email_queue: finishing file(s) (2, 0.4 KB)
+0016.737 (0) Table wp_bb_notifications_subscriptions: Total expected rows (via COUNT): 72
+0016.737 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0016.738 (0) Table wp_bb_notifications_subscriptions: Rows added in this batch (next record: 150): 72 (uncompressed bytes in this segment=5183) in 0.00 seconds
+0016.739 (0) Table wp_bb_notifications_subscriptions: finishing file(s) (2, 0.9 KB)
+0016.742 (0) Table wp_bb_reactions_data: Total expected rows (via COUNT): 4
+0016.742 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0016.743 (0) Table wp_bb_reactions_data: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=1251) in 0.00 seconds
+0016.746 (0) Table wp_bb_reactions_data: finishing file(s) (2, 0.6 KB)
+0016.748 (0) Table wp_bb_user_reactions: Total expected rows (via COUNT): 1
+0016.749 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0016.749 (0) Table wp_bb_user_reactions: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=900) in 0.00 seconds
+0016.751 (0) Table wp_bb_user_reactions: finishing file(s) (2, 0.4 KB)
+0016.753 (0) Table wp_bb_xprofile_visibility: Total expected rows (via COUNT): 0
+0016.754 (0) Table wp_bb_xprofile_visibility: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=791) in 0.00 seconds
+0016.756 (0) Table wp_bb_xprofile_visibility: finishing file(s) (2, 0.4 KB)
+0016.760 (0) Table wp_bp_activity: Total expected rows (via COUNT): 260
+0016.760 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0016.764 (0) Table wp_bp_activity: Rows added in this batch (next record: 543): 260 (uncompressed bytes in this segment=58177) in 0.01 seconds
+0016.767 (0) Table wp_bp_activity: finishing file(s) (2, 10.5 KB)
+0016.770 (0) Table wp_bp_activity_meta: Total expected rows (via COUNT): 124
+0016.770 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0016.772 (0) Table wp_bp_activity_meta: Rows added in this batch (next record: 197): 124 (uncompressed bytes in this segment=6850) in 0.00 seconds
+0016.774 (0) Table wp_bp_activity_meta: finishing file(s) (2, 2 KB)
+0016.777 (0) Table wp_bp_document: Total expected rows (via COUNT): 0
+0016.778 (0) Table wp_bp_document: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1417) in 0.00 seconds
+0016.780 (0) Table wp_bp_document: finishing file(s) (2, 0.5 KB)
+0016.782 (0) Table wp_bp_document_folder: Total expected rows (via COUNT): 0
+0016.783 (0) Table wp_bp_document_folder: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=776) in 0.00 seconds
+0016.785 (0) Table wp_bp_document_folder: finishing file(s) (2, 0.4 KB)
+0016.788 (0) Table wp_bp_document_folder_meta: Total expected rows (via COUNT): 0
+0016.789 (0) Table wp_bp_document_folder_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=665) in 0.00 seconds
+0016.791 (0) Table wp_bp_document_folder_meta: finishing file(s) (2, 0.4 KB)
+0016.794 (0) Table wp_bp_document_meta: Total expected rows (via COUNT): 0
+0016.795 (0) Table wp_bp_document_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=629) in 0.00 seconds
+0016.798 (0) Table wp_bp_document_meta: finishing file(s) (2, 0.4 KB)
+0016.800 (0) Table wp_bp_follow: Total expected rows (via COUNT): 0
+0016.802 (0) Table wp_bp_follow: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=518) in 0.00 seconds
+0016.804 (0) Table wp_bp_follow: finishing file(s) (2, 0.3 KB)
+0016.807 (0) Table wp_bp_groups: Total expected rows (via COUNT): 8
+0016.807 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0016.809 (0) Table wp_bp_groups: Rows added in this batch (next record: 24): 8 (uncompressed bytes in this segment=2885) in 0.00 seconds
+0016.811 (0) Table wp_bp_groups: finishing file(s) (2, 1.4 KB)
+0016.814 (0) Table wp_bp_groups_groupmeta: Total expected rows (via COUNT): 32
+0016.814 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0016.816 (0) Table wp_bp_groups_groupmeta: Rows added in this batch (next record: 80): 32 (uncompressed bytes in this segment=2919) in 0.00 seconds
+0016.818 (0) Table wp_bp_groups_groupmeta: finishing file(s) (2, 0.8 KB)
+0016.822 (0) Table wp_bp_groups_membermeta: Total expected rows (via COUNT): 83
+0016.822 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0016.823 (0) Table wp_bp_groups_membermeta: Rows added in this batch (next record: 83): 83 (uncompressed bytes in this segment=4779) in 0.00 seconds
+0016.826 (0) Table wp_bp_groups_membermeta: finishing file(s) (2, 0.9 KB)
+0016.829 (0) Table wp_bp_groups_members: Total expected rows (via COUNT): 72
+0016.830 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0016.831 (0) Table wp_bp_groups_members: Rows added in this batch (next record: 150): 72 (uncompressed bytes in this segment=5915) in 0.00 seconds
+0016.833 (0) Table wp_bp_groups_members: finishing file(s) (2, 1 KB)
+0016.835 (0) Table wp_bp_invitations: Total expected rows (via COUNT): 0
+0016.836 (0) Table wp_bp_invitations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1164) in 0.00 seconds
+0016.838 (0) Table wp_bp_invitations: finishing file(s) (2, 0.5 KB)
+0016.841 (0) Table wp_bp_invitations_invitemeta: Total expected rows (via COUNT): 0
+0016.842 (0) Table wp_bp_invitations_invitemeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=677) in 0.00 seconds
+0016.844 (0) Table wp_bp_invitations_invitemeta: finishing file(s) (2, 0.4 KB)
+0016.846 (0) Table wp_bp_media: Total expected rows (via COUNT): 0
+0016.847 (0) Table wp_bp_media: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1372) in 0.00 seconds
+0016.849 (0) Table wp_bp_media: finishing file(s) (2, 0.6 KB)
+0016.851 (0) Table wp_bp_media_albums: Total expected rows (via COUNT): 0
+0016.851 (0) Table wp_bp_media_albums: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=630) in 0.00 seconds
+0016.853 (0) Table wp_bp_media_albums: finishing file(s) (2, 0.4 KB)
+0016.856 (0) Table wp_bp_moderation: Total expected rows (via COUNT): 0
+0016.856 (0) Table wp_bp_moderation: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=745) in 0.00 seconds
+0016.859 (0) Table wp_bp_moderation: finishing file(s) (2, 0.4 KB)
+0016.862 (0) Table wp_bp_moderation_meta: Total expected rows (via COUNT): 0
+0016.863 (0) Table wp_bp_moderation_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=647) in 0.00 seconds
+0016.865 (0) Table wp_bp_moderation_meta: finishing file(s) (2, 0.4 KB)
+0016.867 (0) Table wp_bp_notifications: Total expected rows (approximate): 1148
+0016.875 (0) Table wp_bp_notifications: Rows added in this batch (next record: 2177): 1148 (uncompressed bytes in this segment=105189) in 0.01 seconds
+0016.877 (0) Table wp_bp_notifications: finishing file(s) (2, 6.4 KB)
+0016.880 (0) Table wp_bp_notifications_meta: Total expected rows (approximate): 1186
+0016.885 (0) Table wp_bp_notifications_meta: Rows added in this batch (next record: 2215): 1186 (uncompressed bytes in this segment=40228) in 0.01 seconds
+0016.887 (0) Table wp_bp_notifications_meta: finishing file(s) (2, 6.1 KB)
+0016.890 (0) Table wp_bp_suspend: Total expected rows (via COUNT): 0
+0016.891 (0) Table wp_bp_suspend: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1007) in 0.00 seconds
+0016.893 (0) Table wp_bp_suspend: finishing file(s) (2, 0.5 KB)
+0016.895 (0) Table wp_bp_suspend_details: Total expected rows (via COUNT): 0
+0016.896 (0) Table wp_bp_suspend_details: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=575) in 0.00 seconds
+0016.898 (0) Table wp_bp_suspend_details: finishing file(s) (2, 0.3 KB)
+0016.900 (0) Table wp_bp_user_blogs: Total expected rows (via COUNT): 1
+0016.901 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0016.902 (0) Table wp_bp_user_blogs: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=614) in 0.00 seconds
+0016.904 (0) Table wp_bp_user_blogs: finishing file(s) (2, 0.4 KB)
+0016.907 (0) Table wp_bp_user_blogs_blogmeta: Total expected rows (via COUNT): 8
+0016.907 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0016.908 (0) Table wp_bp_user_blogs_blogmeta: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=1020) in 0.00 seconds
+0016.911 (0) Table wp_bp_user_blogs_blogmeta: finishing file(s) (2, 0.5 KB)
+0016.913 (0) Table wp_bp_xprofile_data: Total expected rows (via COUNT): 121
+0016.914 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0016.915 (0) Table wp_bp_xprofile_data: Rows added in this batch (next record: 209): 121 (uncompressed bytes in this segment=8063) in 0.00 seconds
+0016.918 (0) Table wp_bp_xprofile_data: finishing file(s) (2, 2 KB)
+0016.920 (0) Table wp_bp_xprofile_fields: Total expected rows (via COUNT): 18
+0016.921 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0016.922 (0) Table wp_bp_xprofile_fields: Rows added in this batch (next record: 33): 18 (uncompressed bytes in this segment=2408) in 0.00 seconds
+0016.924 (0) Table wp_bp_xprofile_fields: finishing file(s) (2, 0.8 KB)
+0016.926 (0) Table wp_bp_xprofile_groups: Total expected rows (via COUNT): 2
+0016.926 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0016.927 (0) Table wp_bp_xprofile_groups: Rows added in this batch (next record: 3): 2 (uncompressed bytes in this segment=800) in 0.00 seconds
+0016.929 (0) Table wp_bp_xprofile_groups: finishing file(s) (2, 0.5 KB)
+0016.932 (0) Table wp_bp_xprofile_meta: Total expected rows (via COUNT): 13
+0016.932 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0016.932 (0) Table wp_bp_xprofile_meta: Rows added in this batch (next record: 25): 13 (uncompressed bytes in this segment=1444) in 0.00 seconds
+0016.935 (0) Table wp_bp_xprofile_meta: finishing file(s) (2, 0.6 KB)
+0016.939 (0) Table wp_bp_zoom_meeting_meta: Total expected rows (via COUNT): 0
+0016.940 (0) Table wp_bp_zoom_meeting_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=650) in 0.00 seconds
+0016.943 (0) Table wp_bp_zoom_meeting_meta: finishing file(s) (2, 0.4 KB)
+0016.945 (0) Table wp_bp_zoom_meetings: Total expected rows (via COUNT): 0
+0016.947 (0) Table wp_bp_zoom_meetings: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1511) in 0.00 seconds
+0016.949 (0) Table wp_bp_zoom_meetings: finishing file(s) (2, 0.6 KB)
+0016.951 (0) Table wp_bp_zoom_recordings: Total expected rows (via COUNT): 0
+0016.951 (0) Table wp_bp_zoom_recordings: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=785) in 0.00 seconds
+0016.953 (0) Table wp_bp_zoom_recordings: finishing file(s) (2, 0.4 KB)
+0016.956 (0) Table wp_bp_zoom_webinar_meta: Total expected rows (via COUNT): 0
+0016.957 (0) Table wp_bp_zoom_webinar_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=650) in 0.00 seconds
+0016.960 (0) Table wp_bp_zoom_webinar_meta: finishing file(s) (2, 0.4 KB)
+0016.963 (0) Table wp_bp_zoom_webinar_recordings: Total expected rows (via COUNT): 0
+0016.964 (0) Table wp_bp_zoom_webinar_recordings: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=833) in 0.00 seconds
+0016.966 (0) Table wp_bp_zoom_webinar_recordings: finishing file(s) (2, 0.4 KB)
+0016.969 (0) Table wp_bp_zoom_webinars: Total expected rows (via COUNT): 0
+0016.969 (0) Table wp_bp_zoom_webinars: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1461) in 0.00 seconds
+0016.972 (0) Table wp_bp_zoom_webinars: finishing file(s) (2, 0.6 KB)
+0016.972 (0) PHP event: code E_WARNING: filemtime(): stat failed for /home/u671114538/domains/app.ne/public_html/wp-content/updraft/backup_2024-09-18-0728_Nextasee_a994f862a03a-db.gz (line 1925, wp-content/plugins/updraftplus/backup.php)
+0016.973 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_options.table.tmpr5334.gz (1/63/fopen): adding to final database dump
+0016.980 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_options.table.gz (2/63/fopen): adding to final database dump
+0016.981 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_users.table.tmpr34.gz (3/63/fopen): adding to final database dump
+0016.982 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_users.table.gz (4/63/fopen): adding to final database dump
+0016.982 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_usermeta.table.tmpr760.gz (5/63/fopen): adding to final database dump
+0016.983 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_usermeta.table.gz (6/63/fopen): adding to final database dump
+0016.983 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_actionscheduler_actions.table.tmpr105.gz (7/63/fopen): adding to final database dump
+0016.984 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_actionscheduler_actions.table.gz (8/63/fopen): adding to final database dump
+0016.984 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/63/fopen): adding to final database dump
+0016.984 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_actionscheduler_claims.table.gz (10/63/fopen): adding to final database dump
+0016.985 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_actionscheduler_groups.table.tmpr2.gz (11/63/fopen): adding to final database dump
+0016.985 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_actionscheduler_groups.table.gz (12/63/fopen): adding to final database dump
+0016.985 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_actionscheduler_logs.table.tmpr10.gz (13/63/fopen): adding to final database dump
+0016.986 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_actionscheduler_logs.table.gz (14/63/fopen): adding to final database dump
+0016.986 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_commentmeta.table.tmpr0.gz (15/63/fopen): adding to final database dump
+0016.987 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_commentmeta.table.gz (16/63/fopen): adding to final database dump
+0016.987 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_comments.table.tmpr15.gz (17/63/fopen): adding to final database dump
+0016.987 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_comments.table.gz (18/63/fopen): adding to final database dump
+0016.988 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_gamipress_logs.table.tmpr7.gz (19/63/fopen): adding to final database dump
+0016.988 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_gamipress_logs.table.gz (20/63/fopen): adding to final database dump
+0016.988 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_gamipress_logs_meta.table.tmpr17.gz (21/63/fopen): adding to final database dump
+0016.989 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_gamipress_logs_meta.table.gz (22/63/fopen): adding to final database dump
+0016.989 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_gamipress_user_earnings.table.tmpr3.gz (23/63/fopen): adding to final database dump
+0016.989 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_gamipress_user_earnings.table.gz (24/63/fopen): adding to final database dump
+0016.990 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_gamipress_user_earnings_meta.table.tmpr0.gz (25/63/fopen): adding to final database dump
+0016.990 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_gamipress_user_earnings_meta.table.gz (26/63/fopen): adding to final database dump
+0016.990 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_links.table.tmpr0.gz (27/63/fopen): adding to final database dump
+0016.991 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_links.table.gz (28/63/fopen): adding to final database dump
+0016.991 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_postmeta.table.tmpr656.gz (29/63/fopen): adding to final database dump
+0016.992 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_postmeta.table.gz (30/63/fopen): adding to final database dump
+0016.992 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_posts.table.tmpr151.gz (31/63/fopen): adding to final database dump
+0016.992 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_posts.table.gz (32/63/fopen): adding to final database dump
+0016.993 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_signups.table.tmpr0.gz (33/63/fopen): adding to final database dump
+0016.993 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_signups.table.gz (34/63/fopen): adding to final database dump
+0016.993 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_tec_events.table.tmpr13.gz (35/63/fopen): adding to final database dump
+0016.994 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_tec_events.table.gz (36/63/fopen): adding to final database dump
+0016.994 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_tec_occurrences.table.tmpr12.gz (37/63/fopen): adding to final database dump
+0016.995 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_tec_occurrences.table.gz (38/63/fopen): adding to final database dump
+0016.995 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_term_relationships.table.tmpr100001.gz (39/63/fopen): adding to final database dump
+0016.995 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_term_relationships.table.gz (40/63/fopen): adding to final database dump
+0016.996 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_term_taxonomy.table.tmpr65.gz (41/63/fopen): adding to final database dump
+0016.996 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_term_taxonomy.table.gz (42/63/fopen): adding to final database dump
+0016.996 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_termmeta.table.tmpr6.gz (43/63/fopen): adding to final database dump
+0016.997 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_termmeta.table.gz (44/63/fopen): adding to final database dump
+0016.997 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_terms.table.tmpr65.gz (45/63/fopen): adding to final database dump
+0016.997 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_terms.table.gz (46/63/fopen): adding to final database dump
+0016.998 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bb_background_job_queue.table.tmpr0.gz (47/63/fopen): adding to final database dump
+0016.998 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bb_background_job_queue.table.gz (48/63/fopen): adding to final database dump
+0016.998 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bb_background_process_logs.table.tmpr250.gz (49/63/fopen): adding to final database dump
+0016.999 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bb_background_process_logs.table.gz (50/63/fopen): adding to final database dump
+0016.999 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bb_email_queue.table.tmpr0.gz (51/63/fopen): adding to final database dump
+0017.000 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bb_email_queue.table.gz (52/63/fopen): adding to final database dump
+0017.000 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bb_notifications_subscriptions.table.tmpr151.gz (53/63/fopen): adding to final database dump
+0017.000 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bb_notifications_subscriptions.table.gz (54/63/fopen): adding to final database dump
+0017.001 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bb_reactions_data.table.tmpr5.gz (55/63/fopen): adding to final database dump
+0017.001 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bb_reactions_data.table.gz (56/63/fopen): adding to final database dump
+0017.001 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bb_user_reactions.table.tmpr2.gz (57/63/fopen): adding to final database dump
+0017.002 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bb_user_reactions.table.gz (58/63/fopen): adding to final database dump
+0017.002 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bb_xprofile_visibility.table.tmpr0.gz (59/63/fopen): adding to final database dump
+0017.002 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bb_xprofile_visibility.table.gz (60/63/fopen): adding to final database dump
+0017.002 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_activity.table.tmpr544.gz (61/63/fopen): adding to final database dump
+0017.003 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_activity.table.gz (62/63/fopen): adding to final database dump
+0017.003 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_activity_meta.table.tmpr198.gz (63/63/fopen): adding to final database dump
+0017.003 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_activity_meta.table.gz (64/63/fopen): adding to final database dump
+0017.004 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_document.table.tmpr0.gz (65/63/fopen): adding to final database dump
+0017.004 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_document.table.gz (66/63/fopen): adding to final database dump
+0017.004 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_document_folder.table.tmpr0.gz (67/63/fopen): adding to final database dump
+0017.005 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_document_folder.table.gz (68/63/fopen): adding to final database dump
+0017.005 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_document_folder_meta.table.tmpr0.gz (69/63/fopen): adding to final database dump
+0017.005 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_document_folder_meta.table.gz (70/63/fopen): adding to final database dump
+0017.006 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_document_meta.table.tmpr0.gz (71/63/fopen): adding to final database dump
+0017.006 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_document_meta.table.gz (72/63/fopen): adding to final database dump
+0017.006 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_follow.table.tmpr0.gz (73/63/fopen): adding to final database dump
+0017.007 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_follow.table.gz (74/63/fopen): adding to final database dump
+0017.007 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_groups.table.tmpr25.gz (75/63/fopen): adding to final database dump
+0017.007 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_groups.table.gz (76/63/fopen): adding to final database dump
+0017.008 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_groups_groupmeta.table.tmpr81.gz (77/63/fopen): adding to final database dump
+0017.008 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_groups_groupmeta.table.gz (78/63/fopen): adding to final database dump
+0017.008 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_groups_membermeta.table.tmpr84.gz (79/63/fopen): adding to final database dump
+0017.009 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_groups_membermeta.table.gz (80/63/fopen): adding to final database dump
+0017.009 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_groups_members.table.tmpr151.gz (81/63/fopen): adding to final database dump
+0017.009 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_groups_members.table.gz (82/63/fopen): adding to final database dump
+0017.010 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_invitations.table.tmpr0.gz (83/63/fopen): adding to final database dump
+0017.010 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_invitations.table.gz (84/63/fopen): adding to final database dump
+0017.010 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_invitations_invitemeta.table.tmpr0.gz (85/63/fopen): adding to final database dump
+0017.011 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_invitations_invitemeta.table.gz (86/63/fopen): adding to final database dump
+0017.011 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_media.table.tmpr0.gz (87/63/fopen): adding to final database dump
+0017.012 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_media.table.gz (88/63/fopen): adding to final database dump
+0017.012 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_media_albums.table.tmpr0.gz (89/63/fopen): adding to final database dump
+0017.012 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_media_albums.table.gz (90/63/fopen): adding to final database dump
+0017.013 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_moderation.table.tmpr0.gz (91/63/fopen): adding to final database dump
+0017.013 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_moderation.table.gz (92/63/fopen): adding to final database dump
+0017.013 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_moderation_meta.table.tmpr0.gz (93/63/fopen): adding to final database dump
+0017.014 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_moderation_meta.table.gz (94/63/fopen): adding to final database dump
+0017.014 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_notifications.table.tmpr2178.gz (95/63/fopen): adding to final database dump
+0017.014 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_notifications.table.gz (96/63/fopen): adding to final database dump
+0017.015 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_notifications_meta.table.tmpr2216.gz (97/63/fopen): adding to final database dump
+0017.015 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_notifications_meta.table.gz (98/63/fopen): adding to final database dump
+0017.015 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_suspend.table.tmpr0.gz (99/63/fopen): adding to final database dump
+0017.016 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_suspend.table.gz (100/63/fopen): adding to final database dump
+0017.017 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_suspend_details.table.tmpr0.gz (101/63/fopen): adding to final database dump
+0017.017 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_suspend_details.table.gz (102/63/fopen): adding to final database dump
+0017.017 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_user_blogs.table.tmpr2.gz (103/63/fopen): adding to final database dump
+0017.018 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_user_blogs.table.gz (104/63/fopen): adding to final database dump
+0017.018 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_user_blogs_blogmeta.table.tmpr9.gz (105/63/fopen): adding to final database dump
+0017.019 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_user_blogs_blogmeta.table.gz (106/63/fopen): adding to final database dump
+0017.019 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_xprofile_data.table.tmpr210.gz (107/63/fopen): adding to final database dump
+0017.020 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_xprofile_data.table.gz (108/63/fopen): adding to final database dump
+0017.020 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_xprofile_fields.table.tmpr34.gz (109/63/fopen): adding to final database dump
+0017.020 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_xprofile_fields.table.gz (110/63/fopen): adding to final database dump
+0017.021 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_xprofile_groups.table.tmpr4.gz (111/63/fopen): adding to final database dump
+0017.021 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_xprofile_groups.table.gz (112/63/fopen): adding to final database dump
+0017.021 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_xprofile_meta.table.tmpr26.gz (113/63/fopen): adding to final database dump
+0017.022 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_xprofile_meta.table.gz (114/63/fopen): adding to final database dump
+0017.022 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_zoom_meeting_meta.table.tmpr0.gz (115/63/fopen): adding to final database dump
+0017.022 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_zoom_meeting_meta.table.gz (116/63/fopen): adding to final database dump
+0017.023 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_zoom_meetings.table.tmpr0.gz (117/63/fopen): adding to final database dump
+0017.023 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_zoom_meetings.table.gz (118/63/fopen): adding to final database dump
+0017.024 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_zoom_recordings.table.tmpr0.gz (119/63/fopen): adding to final database dump
+0017.024 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_zoom_recordings.table.gz (120/63/fopen): adding to final database dump
+0017.024 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_zoom_webinar_meta.table.tmpr0.gz (121/63/fopen): adding to final database dump
+0017.025 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_zoom_webinar_meta.table.gz (122/63/fopen): adding to final database dump
+0017.025 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_zoom_webinar_recordings.table.tmpr0.gz (123/63/fopen): adding to final database dump
+0017.025 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_zoom_webinar_recordings.table.gz (124/63/fopen): adding to final database dump
+0017.025 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_zoom_webinars.table.tmpr0.gz (125/63/fopen): adding to final database dump
+0017.026 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db-table-wp_bp_zoom_webinars.table.gz (126/63/fopen): adding to final database dump
+0017.028 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db.gz: finished writing out complete database file (498.3 KB)
+0017.047 (0) Total database tables backed up: 63 (backup_2024-09-18-0728_Nextasee_a994f862a03a-db.gz, size: 510427, sha1: d9d648ac4726d479f944582e5e7c425cc40b0769, sha256: f1978010381f02fe164fda9d1379db15d18747dc264c227101eacbb175f045d5)
+0017.050 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-plugins.zip: plugins: This file has already been successfully uploaded
+0017.050 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-themes.zip: themes: This file has already been successfully uploaded
+0017.050 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-uploads.zip: uploads: This file has already been successfully uploaded
+0017.050 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-mu-plugins.zip: mu-plugins: This file has already been successfully uploaded
+0017.051 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-others.zip: others: This file has already been successfully uploaded
+0017.051 (0) backup_2024-09-18-0728_Nextasee_a994f862a03a-db.gz: db: This file has not yet been successfully uploaded: will queue
+0017.051 (0) Saving backup history. Total backup size: 128.6 MB
+0017.052 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0017.053 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0017.054 (0) No remote despatch: user chose no remote backup service
+0017.054 (0) Recording as successfully uploaded: backup_2024-09-18-0728_Nextasee_a994f862a03a-db.gz
+0017.055 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0017.056 (0) Number of backup sets in history: 1; groups (db): 1
+0017.056 (0) Examining (for databases) backup set with group_id=0, nonce=a994f862a03a, datestamp=1726644496 (Sep 18 2024 07:28:16)
+0017.056 (0) This backup set is the backup set just made, so will not be deleted.
+0017.056 (0) Number of backup sets in history: 1; groups (files): 1
+0017.057 (0) Examining (for files) backup set with nonce=a994f862a03a, datestamp=1726644496 (Sep 18 2024 07:28:16)
+0017.057 (0) This backup set is the backup set just made, so will not be deleted.
+0017.057 (0) This backup set is the backup set just made, so will not be deleted.
+0017.057 (0) This backup set is the backup set just made, so will not be deleted.
+0017.057 (0) This backup set is the backup set just made, so will not be deleted.
+0017.057 (0) This backup set is the backup set just made, so will not be deleted.
+0017.057 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0017.057 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0017.058 (0) Resume backup (a994f862a03a, 0): finish run
+0017.059 (0) Decremented the semaphore (fd) by 1
+0017.060 (0) Semaphore (fd) unlocked
+0017.060 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0017.062 (0) No email will/can be sent - the user has not configured an email address.
+0017.062 (0) The backup succeeded and is now complete
